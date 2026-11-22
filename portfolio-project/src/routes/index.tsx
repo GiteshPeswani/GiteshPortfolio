@@ -193,6 +193,7 @@ function useTypewriter(words: string[], typingSpeed = 80, deletingSpeed = 40, pa
 function Hero() {
   const typedRole = useTypewriter([
     "Full Stack Developer",
+    "SmartHire AI Creator & Architect",
     "Spring Boot & Java Engineer",
     "Angular & React Specialist",
     "Kafka & Distributed Systems Builder",
@@ -304,7 +305,7 @@ function About() {
             {[
               ["Role", "Full Stack Developer"],
               ["Location", "Mumbai, India"],
-              ["Focus", "Angular · Spring Boot"],
+              ["Focus", "Spring Boot · Angular · AI Systems"],
               ["CGPA", "8.62 / 10"],
             ].map(([k, v]) => (
               <div key={k} className="flex items-center justify-between px-5 py-4 text-sm">

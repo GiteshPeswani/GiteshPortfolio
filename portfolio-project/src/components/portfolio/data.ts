@@ -7,14 +7,14 @@ export const NAV = [
 ];
 
 export const STACK = [
-  { title: "Languages", items: ["Java", "JavaScript", "SQL", "HTML", "CSS"] },
-  { title: "Frontend", items: ["Angular", "React", "TypeScript", "Bootstrap", "Tailwind CSS"] },
-  { title: "Backend", items: ["Spring Boot", "REST APIs", "JWT Authentication", "Spring Security"] },
-  { title: "Databases", items: ["MySQL"] },
-  { title: "Tools & Platforms", items: ["Git", "Kafka", "Twilio", "DigitalOcean"] },
+  { title: "Languages", items: ["Java", "Python", "JavaScript", "TypeScript", "SQL", "HTML/CSS"] },
+  { title: "Frontend", items: ["Angular 17", "React 18", "Tailwind CSS", "Bootstrap", "TypeScript"] },
+  { title: "Backend", items: ["Spring Boot", "FastAPI", "REST APIs", "JWT Authentication", "Spring Security"] },
+  { title: "AI & Computer Vision", items: ["Google Gemini AI", "OpenCV", "Facial & Gaze Tracking", "WebSockets"] },
+  { title: "Distributed & Cloud", items: ["Apache Kafka", "WebRTC", "Twilio", "DigitalOcean", "Git"] },
   {
     title: "Core Skills",
-    items: ["Data Structures & Algorithms", "Problem Solving", "System Design Fundamentals"],
+    items: ["Data Structures & Algorithms", "System Design", "Microservices", "Event-Driven Architecture"],
   },
 ];
 
@@ -52,18 +52,18 @@ type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    name: "Resume Analyzer",
-    tech: ["Java", "Spring Boot", "Angular 16", "MySQL", "Spring Security"],
+    name: "SmartHire AI",
+    tech: ["Angular 17", "Spring Boot", "Python", "FastAPI", "OpenCV", "Google Gemini AI", "WebRTC", "MySQL"],
     description:
-      "AI-powered resume analyzer with ATS score calculation, keyword analysis, and job recommendation features.",
-    github: "https://github.com/GiteshPeswani/ResumeAnalyzer",
+      "Automated recruitment & proctoring ecosystem featuring ATS resume analysis, dynamic Gemini LLM question generation, real-time OpenCV gaze and phone detection, sandboxed polyglot code execution, and WebRTC video interviews.",
+    github: "https://github.com/GiteshPeswani/SmartHire-Ai",
   },
   {
-    name: "Expense Tracker",
-    tech: ["Angular", "Spring Boot", "MySQL", "JWT"],
+    name: "Attendance Management System",
+    tech: ["Spring Boot", "React 18", "Kafka", "MySQL", "Twilio"],
     description:
-      "Full-stack expense tracking platform with authentication, CSV import support, analytics, and responsive dashboard.",
-    github: "https://github.com/GiteshPeswani/ExpenseTrackerProject",
+      "Attendance system using dynamic QR codes, GPS geofencing, Kafka event processing, and WhatsApp notifications.",
+    github: "https://github.com/GiteshPeswani/ATMS",
   },
   {
     name: "Aadidev Properties",
@@ -74,11 +74,18 @@ export const PROJECTS: Project[] = [
     demo: "https://aadidev-properties.vercel.app/",
   },
   {
-    name: "Attendance Management System",
-    tech: ["Spring Boot", "React 18", "Kafka", "MySQL", "Twilio"],
+    name: "Expense Tracker",
+    tech: ["Angular", "Spring Boot", "MySQL", "JWT"],
     description:
-      "Attendance system using dynamic QR codes, GPS geofencing, Kafka event processing, and WhatsApp notifications.",
-    github: "https://github.com/GiteshPeswani/ATMS",
+      "Full-stack expense tracking platform with authentication, CSV import support, analytics, and responsive dashboard.",
+    github: "https://github.com/GiteshPeswani/ExpenseTrackerProject",
+  },
+  {
+    name: "Resume Analyzer",
+    tech: ["Java", "Spring Boot", "Angular 16", "MySQL", "Spring Security"],
+    description:
+      "AI-powered resume analyzer with ATS score calculation, keyword analysis, and job recommendation features.",
+    github: "https://github.com/GiteshPeswani/ResumeAnalyzer",
   },
 ];
 
